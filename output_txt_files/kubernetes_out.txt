@@ -1,0 +1,19 @@
+<paste log output from Kubernetes-mediated prediction, here>
+
+error: failed to create deployment: deployments.apps "sklearn" already exists
+NAMESPACE              NAME                                        READY   STATUS    RESTARTS   AGE
+default                sklearn-7c9f96cdbf-qk2w6                    1/1     Running   0          16m
+kube-system            coredns-74ff55c5b-4c8kt                     1/1     Running   0          6h
+kube-system            etcd-minikube                               1/1     Running   0          6h
+kube-system            kube-apiserver-minikube                     1/1     Running   0          6h
+kube-system            kube-controller-manager-minikube            1/1     Running   0          6h
+kube-system            kube-proxy-jpbf4                            1/1     Running   0          6h
+kube-system            kube-scheduler-minikube                     1/1     Running   0          6h
+kube-system            storage-provisioner                         1/1     Running   1          6h
+kubernetes-dashboard   dashboard-metrics-scraper-f6647bd8c-sxhbw   1/1     Running   0          5h31m
+kubernetes-dashboard   kubernetes-dashboard-968bcb79-p5f7v         1/1     Running   0          5h31m
+Error from server (AlreadyExists): services "sklearn" already exists
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
